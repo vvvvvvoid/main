@@ -1,0 +1,352 @@
+﻿<!DOCTYPE html>
+
+<html lang="fa" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+
+    <link rel="stylesheet" href="makeup/style.css" />
+    <link rel="stylesheet" href="makeup/owl.carousel.min.css" />
+    <script type="text/javascript" src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="makeup/owl.carousel.js"></script>
+    <script type="text/javascript" src="makeup/tilt.jquery.js"></script>
+    <script>
+        jQuery(document).ready(function($) {
+            $("#loginusername").on('input', function () {
+                if (this.value == "admin") {
+                    $("#loginpassword").addClass("show");
+                } else {
+                    $("#loginpassword").removeClass("show");
+                }
+            });
+        })
+    </script>
+</head>
+<body>
+<header id="header">
+    <div class="parallaax1"></div>
+    <div class="parallaax2"></div>
+    <div class="parallaax3"></div>
+    <div class="overlay">
+        <nav class="topnav">
+            <ul>
+                <li><a href="#">صفحه نخست</a><span>hompage</span></li>
+                <li><a href="#" class="imp">فروشگاه</a><span>shop</span></li>
+                <li><a href="#">نمونه کار</a><span>portfolio</span></li>
+                <li><a href="#">تعرفه</a><span>prices</span></li>
+                <li><a href="#">تماس با ما</a><span>contact</span></li>
+                <li><a href="#">پرداخت آنلاین</a><span>payment</span></li>
+                <li class="navtools">
+                    <a href=""><i class="fa fa-sign-in"></i></a> | <a href=""><i class="fa fa-search"></i></a>
+                    <div class="login"><form id="loginform"><a href="javascript:void(0);" onclick="document.getElementById('loginform').submit()"><i class="fa fa-angle-right"></i></a><input type="password" placeholder="password" id="loginpassword" class="inline" /><input type="text" placeholder="username" id="loginusername" class="inline" /></form></div>
+                </li>
+            </ul>
+        </nav>
+        <div class="logo">
+            <img src="images/logoback.png" alt="big logo back" />
+            <div>
+                <img src="images/logofront.png" class="img" height="350" alt="big logo" />
+            </div>
+            <h2>OUTSIDE the LOOP</h2>
+        </div>
+    </div>
+</header>
+<nav class="catnav">
+    <ul>
+        <li><a href="#">قالب</a></li><li>
+            <a href="#">افزونه</a>
+        </li><li class="haschild">
+            <a href="#">آموزش برنامه نویسی</a><span><i class="fa fa-angle-down"></i><i class="fa fa-angle-up"></i></span>
+            <ul>
+                <li><i class="fa fa-angle-left"></i> <a href="#">php</a></li>
+                <li><i class="fa fa-angle-left"></i> <a href="#">php</a></li>
+                <li><i class="fa fa-angle-left"></i> <a href="#">php</a></li>
+                <li><i class="fa fa-angle-left"></i> <a href="#">php</a></li>
+                <li><i class="fa fa-angle-left"></i> <a href="#">php</a></li>
+                <li><i class="fa fa-angle-left"></i> <a href="#">php</a></li>
+                <li><i class="fa fa-angle-left"></i> <a href="#">php</a></li>
+            </ul>
+        </li><li>
+            <a href="#">آموزش گرافیک</a>
+        </li><li>
+            <a href="#">ابزار</a>
+        </li>
+        <li class="navtools pullleft">
+            <input type="text" placeholder="Search keywords" />
+        </li>
+    </ul>
+</nav>
+<section id="soshot">
+    <div class="container">
+        <h3></h3>
+        <div class="col-8">
+            <div class="shots">
+                <div class="user">
+                    <div class="avatar inlinetop">
+                        <div style="background: url(images/profile.jpg) center center; background-size: cover;"></div>
+                    </div>
+                    <div class="inlinetop">
+                        <div class="username"><a href="/voidguy">voidguy</a></div>
+                        <div class="badge">Programmer</div>
+                    </div>
+                </div>
+                <div class="pic" style="background: url(images/shot.jpg) center center; background-size: cover"></div>
+            </div>
+        </div>
+        <div class="col-4 profiles">
+            <div class="topusers">
+                <div class="avatar">
+                    <div style="background: url(images/profile.jpg) center center; background-size: cover;"></div>
+                    <i class="fa fa-certificate pro"></i>
+                </div>
+                <div class="username"><a href="/voidguy">voidguy</a></div>
+                <div class="name">alireza mobaraki</div>
+                <div class="badge">Programmer</div>
+            </div>
+        </div>
+    </div>
+</section>
+<main id="main">
+    <div class="container">
+        <div class="col-4">
+            2
+        </div>
+        <div class="col-8 blog">
+            <article>
+                <header><h2>رونمایی از قالب سایت و شروع به کار سایت</h2></header>
+                <div class="content">
+                    <p>
+                        بهینه سازی وب سایت از طریق افزونه wp rocket اگر به دنبال بهینه سازی سرعت لود وب سایت خود
+                        هستید افزونه wp rocket میتواند کمک شایانی به شما بکند و سرعت لود سایت شما را چندین برابر کمتر
+                        کند. این روزها با وجود چندین الگوریتمی که گوگل معرفی کرده است و سخت گیری که در زمینه سرعت
+                        وب سایت دارد هر وبمستر زیرکی حتما به فکر بهینه کردن سرعت سایت خود می افتد راه های متعددی
+                        برای سرعت بخشیدن به وب سایت وجود دارد که بیشترین این راه ها […]
+                    </p>
+                </div>
+                <footer class="comment">
+                    <div class="col-2" style="width: 30px;">
+                        <div class="avatar"></div>
+                    </div>
+                    <div class="col-9">
+                        <div class="username">علیرضا</div>
+                        <div class="qoute">با تشکر از مطلب خوبتون لطفا در ارتباط با نحوه ارتباز با سرور در react توضیح ...</div>
+                    </div>
+                    <div class="col-2 like">
+                        <a href="#">13 <i class="fa fa-heart-o"></i></a>
+                    </div>
+                </footer>
+                <div class="thumb" style="background: url(images/thumb.jpg) center center; background-size: cover;">
+                    <div class="author">
+                        <div class="name inlinetop">
+                            <span>محمد اسلامی</span>
+                            <a href="#">صفحه مدیر</a>
+                        </div>
+                        <div class="avatar inlinetop">
+                            <div style="background: url(images/profile.jpg) center center; background-size: cover;"></div>
+                        </div>
+                    </div>
+                    <div class="maintag">
+                        <div class="css3"></div>
+                    </div>
+                </div>
+                <div class="social">
+                    <ul>
+                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fa fa-telegram"></i></a></li>
+                    </ul>
+                </div>
+            </article>
+        </div>
+    </div>
+</main>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <script>
+        $(document).ready(function () {
+            $(window).bind("load resize scroll", function (e) {
+                var y = $(window).scrollTop();
+
+                $(".parallaax1").filter(function () {
+                    return $(this).offset().top < (y + $(window).height()) &&
+                           $(this).offset().top + $(this).height() > y;
+                }).css('background-position', '0px ' + parseInt(-y / 1) + 'px');
+                $(".parallaax2").filter(function () {
+                    return $(this).offset().top < (y + $(window).height()) &&
+                           $(this).offset().top + $(this).height() > y;
+                }).css('background-position', '0px ' + parseInt(-y / 4) + 'px');
+                $(".parallaax3").filter(function () {
+                    return $(this).offset().top < (y + $(window).height()) &&
+                           $(this).offset().top + $(this).height() > y;
+                }).css('background-position', '0px ' + parseInt(-y / 2) + 'px');
+                $(".logo img").filter(function () {
+                    return $(this).offset().top < (y + $(window).height()) &&
+                           $(this).offset().top + $(this).height() > y;
+                }).css('top', parseInt(-y) + 'px');
+                $(".logo h2").filter(function () {
+                    return $(this).offset().top < (y + $(window).height()) &&
+                           $(this).offset().top + $(this).height() > y;
+                }).css({'top': 390 + parseInt(-y / 3) + 'px'});
+                $(".overlay").filter(function () {
+                    if (y / 7 < 10) {
+                        y = 0;
+                    }
+                    return $(this).offset().top < (y + $(window).height()) &&
+                               $(this).offset().top + $(this).height() > y;
+                }).css('background', 'rgba(205,220,57,0.' + parseInt(y / 7) + ')');
+            });
+
+            var imgbg = $('.logo div');
+            var img = $('.img');
+            var description = $('.logo h2');
+            if (imgbg.length > 0) {
+                var offset = imgbg.offset();
+                function mouse(evt) {
+                    var center_x = (offset.left) + (imgbg.width() / 2);
+                    var center_y = (offset.top) + (imgbg.height() / 2);
+                    var mouse_x = evt.pageX;
+                    if (mouse_x / 50 < 0) {
+                        imgbg.css({ 'transform': 'skewX(0deg)' });
+                    } else {
+                        img.css('width', '100%').css('width', '-=' + (mouse_x / 50 - 15) + 'px');
+                        img.css('margin-right', (mouse_x / 50 - 15) + 'px');
+                        imgbg.css({ 'transform': 'skewX(' + (mouse_x / 50 - 15) + 'deg)' });
+                        description.css({ 'right': (mouse_x / 40 - 25) + 'px', 'transform': 'skewX(' + (mouse_x / 50 - 15) + 'deg)' });
+                    }
+                }
+                $(document).mousemove(mouse);
+            }
+            $('.topfeatured').owlCarousel({
+                margin: 0,
+                nav: false,
+                rtl: true,
+                loop: true,
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    600: {
+                        items: 3
+                    },
+                    1000: {
+                        items: 5
+                    }
+                }
+            });
+            $('.couch').owlCarousel({
+                margin: 0,
+                nav: false,
+                rtl: true,
+                autoplay: true,
+                loop: true,
+                items: 1
+            });
+            $('.js-tilt').tilt({
+                scale: 1.2
+            });
+        });
+        if (window.addEventListener) window.addEventListener('DOMMouseScroll', wheel, false);
+        window.onmousewheel = document.onmousewheel = wheel;
+
+        function wheel(event) {
+            var delta = 0;
+            if (event.wheelDelta) delta = event.wheelDelta / 40;
+            else if (event.detail) delta = -event.detail / 3;
+
+            handle(delta);
+            if (event.preventDefault) event.preventDefault();
+            event.returnValue = false;
+        }
+
+        var goUp = true;
+        var end = null;
+        var interval = null;
+
+        function handle(delta) {
+            var animationInterval = 20; //lower is faster
+            var scrollSpeed = 20; //lower is faster
+
+            if (end == null) {
+                end = $(window).scrollTop();
+            }
+            end -= 20 * delta;
+            goUp = delta > 0;
+
+            if (interval == null) {
+                interval = setInterval(function () {
+                    var scrollTop = $(window).scrollTop();
+                    var step = Math.round((end - scrollTop) / scrollSpeed);
+                    if (scrollTop <= 0 ||
+                        scrollTop >= $(window).prop("scrollHeight") - $(window).height() ||
+                        goUp && step > -1 ||
+                        !goUp && step < 1) {
+                        clearInterval(interval);
+                        interval = null;
+                        end = null;
+                    }
+                    $(window).scrollTop(scrollTop + step);
+                }, animationInterval);
+            }
+        }
+    </script>
+</body>
+</html>
